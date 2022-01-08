@@ -1,0 +1,1 @@
+Danil Shvetcov`s example works.
