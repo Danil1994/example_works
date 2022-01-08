@@ -1,3 +1,9 @@
+"""
+the function counts the number of holes in digits
+0/4/6/9-one hole
+8-two hole
+"""
+
 def count_holes(n):
     if type(n) != str and type(n) != int:
         return 'ERROR'

@@ -1,3 +1,18 @@
+"""
+create object Sphere 
+and has next method:
+constructor take 4 numrers (radius, and 3 coordinate points)
+method get_volume: returns the volume of the ball
+method get_square: returns the area of the ball
+method get_radius: returns the radius of the ball
+method get_center: return the coordinates of the center of the ball
+method set_radius: changes the radius of the ball
+method set_center: changes the center of the ball
+method is_point_inside: takes 3 numbers and 
+returns True if the point is inside the ball else False
+  
+"""
+
 class Sphere():
     
     def __init__(self, radius=1, x=0, y=0, z=0):

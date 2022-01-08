@@ -1,3 +1,11 @@
+"""
+condition: price for a single flower (narcissus, tulip, rose) and amount of money
+
+the function calculates the number of options for bouquets that can be made, without exceeding the amount of money
+
+and not counting an even number of colors
+"""
+
 def bouquets(narcissus_price, tulip_price, rose_price, summ):
     answer=0
     counter=1
@@ -36,3 +44,5 @@ def bouquets(narcissus_price, tulip_price, rose_price, summ):
         counter=counter+2
 
     return answer
+
+print (bouquets(1,2,3,10))
